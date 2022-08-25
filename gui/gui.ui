@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1564</width>
+    <height>941</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AI CPR </string>
+  </property>
+  <widget class="QLabel" name="img_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>imgLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startVideo">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>500</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>開始錄影</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopVideo">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>550</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>結束錄影</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>650</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>離開</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>450</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>編號</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Id">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>440</y>
+     <width>104</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="poseLabel">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>710</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>poseLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="frequenceLabel">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>410</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>frequenceLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="deepLabel">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>110</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>deepLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="analysisBtn">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>600</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>分析</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>210</y>
+     <width>201</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>Ubuntu Condensed</family>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>左手</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="left_hand">
+      <property name="font">
+       <font>
+        <family>Ubuntu Condensed</family>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>322</y>
+     <width>201</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>Ubuntu Condensed</family>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>右手</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="right_hand">
+      <property name="font">
+       <font>
+        <family>Ubuntu Condensed</family>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>0</y>
+     <width>201</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>深度</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="depthLabel">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>100</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>頻率</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="frequencyLabel">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
